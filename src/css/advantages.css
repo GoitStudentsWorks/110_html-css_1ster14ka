@@ -1,28 +1,17 @@
+ol{
+    list-style-type: none;
+}
 .advantages{
 display: flex;
-width: 1340px;
-height: 424px;
-margin: 2653px 50px 1965px 50px;
-}
-.div-advantages{
-width: 768px;
-height: 424px;
-margin: 2653px 622px 1965px 50px;
+margin: 1965px;
 }
 .photo-de{
-position: absolute;
-width: 540px;
-height: 424px;
 left: 0px;
 top: 0px;
-background: url(image.png);
 }
 .ol-f{
-    position: absolute;
-    width: 318px;
-    height: 100px;
-    left: 50px;
-    top: 90px;
+    margin-top: 90px;
+    margin-left: 50px;
     }
 .hasl{
     font-family: var(--font-family);
@@ -32,36 +21,17 @@ background: url(image.png);
     letter-spacing: -0.05em;
     color: #fbfbfb;
 }
-.p-f{
-    width: 318px;
-    height: 100px;
-    margin: 90px 400px 234px 50px;
-}
 .ol-s{
-position: absolute;
-width: 318px;
-height: 85px;
-left: 400px;
-top: 90px;
-}
-.p-s{
-    width: 318px;
-    height: 85px;
-    margin: 2743px 672px 2215px 450px;
+margin-top: 90px;
+margin-left: 400px;
 }
 .ol-t{
-position: absolute;
-width: 318px;
-height: 100px;
-left: 50px;
-top: 234px;
+    margin-left: 50px;
+    margin-top: 234px;
 }
 .p-t{
-position: absolute;
-width: 292px;
-height: 30px;
-left: 50px;
-top: 304px;
+    margin-left: 50px;
+    margin-top: 304px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -72,18 +42,12 @@ color: #FBFBFB;
 opacity: 0.8;
 }
 .ol-fo{
-position: absolute;
-width: 318px;
-height: 100px;
-left: 400px;
-top: 234px;
+margin-left: 400px;
+margin-top: 234px;
 }
 .p-fo{
-position: absolute;
-width: 292px;
-height: 30px;
-left: 400px;
-top: 304px;
+margin-left: 400px;
+margin-top: 304px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -94,8 +58,6 @@ color: #FBFBFB;
 opacity: 0.8;
 }
 .div-f{
-width: 540px;
-height: 424px;
 border-radius: 24px;
 flex: none;
 order: 1;
