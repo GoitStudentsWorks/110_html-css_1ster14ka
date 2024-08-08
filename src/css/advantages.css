@@ -1,22 +1,13 @@
 .advantages{
 display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 32px;
-position: absolute;
 width: 1340px;
 height: 424px;
-left: 50px;
-top: 2653px;
 margin: 2653px 50px 1965px 50px;
 }
 .div-advantages{
 width: 768px;
 height: 424px;
-flex: none;
-order: 0;
-flex-grow: 0;
+margin: 2653px 622px 1965px 50px;
 }
 .photo-de{
 position: absolute;
@@ -33,48 +24,18 @@ background: url(image.png);
     left: 50px;
     top: 90px;
     }
-.first{
-position: absolute;
-width: 35px;
-height: 32px;
-left: 50px;
-top: 90px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: -0.05em;
-color: #FBFBFB;
+.hasl{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
 }
 .p-f{
-position: absolute;
-width: 238px;
-height: 30px;
-left: 50px;
-top: 160px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 115%;
-letter-spacing: -0.02em;
-color: #FBFBFB;
-opacity: 0.8;
-}
-.second{
-position: absolute;
-width: 39px;
-height: 32px;
-left: 400px;
-top: 90px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: -0.05em;
-color: #FBFBFB;
+    width: 318px;
+    height: 100px;
+    margin: 90px 400px 234px 50px;
 }
 .ol-s{
 position: absolute;
@@ -84,33 +45,9 @@ left: 400px;
 top: 90px;
 }
 .p-s{
-position: absolute;
-width: 216px;
-height: 15px;
-left: 400px;
-top: 160px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 115%;
-letter-spacing: -0.02em;
-color: #FBFBFB;
-opacity: 0.8;
-}
-.third{
-    position: absolute;
-    width: 40px;
-    height: 32px;
-    left: 50px;
-    top: 234px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.05em;
-    color: #FBFBFB;
+    width: 318px;
+    height: 85px;
+    margin: 2743px 672px 2215px 450px;
 }
 .ol-t{
 position: absolute;
@@ -133,20 +70,6 @@ line-height: 115%;
 letter-spacing: -0.02em;
 color: #FBFBFB;
 opacity: 0.8;
-}
-.fourth{
-position: absolute;
-width: 40px;
-height: 32px;
-left: 400px;
-top: 234px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: -0.05em;
-color: #FBFBFB;
 }
 .ol-fo{
 position: absolute;
