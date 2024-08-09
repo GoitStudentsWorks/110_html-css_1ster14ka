@@ -1,18 +1,19 @@
 .header {
   border: 1px solid #fbfbfb;
-  border-radius: 8px;
-  background-color: #fbfbfb;
+  border: none;
   min-width: 320px;
   margin: 0 auto;
-  margin-right: 20px;
-  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .header-container {
   padding: 7px 20px;
-  /* display: flex;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  display: flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .nav {
@@ -76,6 +77,11 @@
 
 @media (min-width: 768px) {
   .header-container {
+  }
+
+  .logo {
+    font-size: 20px;
+    /* margin-right: 131px; */
   }
 
   .menu-list {
