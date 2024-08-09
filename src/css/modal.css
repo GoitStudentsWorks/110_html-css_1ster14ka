@@ -34,7 +34,9 @@
     flex-wrap: wrap;
     align-content: center;
     gap: 4px;
-    padding-top: 274px;
+    /* padding-top: 274px; */
+    margin: auto 0;
+
 }
 
 
