@@ -17,6 +17,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    padding-top: 80px;
 
 }
 
@@ -34,7 +35,6 @@
     flex-wrap: wrap;
     align-content: center;
     gap: 4px;
-    /* padding-top: 274px; */
     margin: auto 0;
 
 }
@@ -63,6 +63,7 @@
     display: flex;
     gap: 8px;
     justify-content: center;
+
 }
 
 .modal-soc-icon {
