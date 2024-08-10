@@ -29,6 +29,11 @@ body {
   align-items: center;
 }
 
+.rental-btn:hover,
+.rental-btn:focus {
+  background-color: #fbfbfb;
+}
+
 .title {
   font-weight: 500;
   font-size: 48px;
