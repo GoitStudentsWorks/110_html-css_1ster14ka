@@ -61,6 +61,7 @@
   font-size: 32px;
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 .hero-text {
   letter-spacing: -0.02em;
@@ -70,6 +71,7 @@
   width: 100%;
   height: 100%;
   max-width: 325px;
+  margin: 0;
 }
 .hero-image-botton {
   display: flex;
