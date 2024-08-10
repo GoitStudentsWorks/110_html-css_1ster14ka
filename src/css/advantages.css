@@ -30,14 +30,18 @@ img{
     justify-content: space-between;
     padding: 40px;
     margin: 0 auto; */
-    min-width: 320px;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
+    /* min-width: 320px;
+    max-width: 375px; */
+    /* padding: 0 20px;
+    margin: 0 auto; */
 }
 
 .activities {
-    align-self: center;
+    /* align-self: center; */
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
   /* /  display: flex;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -60,7 +64,9 @@ img{
 .li-one{
     /* margin-bottom: 44px; */
 }
+
 .activ{
+    /* height: 100px; */
     /* flex-basis: calc((100% - 32px * 1) / 2); */
 }
 /* .activity .activ:nth-child(2){
@@ -112,14 +118,14 @@ opacity: 0.8;
     margin: 0;
     color: #B0C4D4;
 } */
-.li-one:nth-last-of-type(1) .port{
+.activ:nth-of-type(1) .port{
     max-width: 238px;
 }
-.li-one:nth-last-of-type(2) .port{
+.activ:nth-of-type(2) .port{
     max-width: 199px;
 }
-.li-one:nth-last-of-type(3) .port,
-.li-one:nth-last-of-type(4) .port{
+.activ:nth-of-type(3) .port,
+.activ:nth-of-type(4) .port{
     max-width: 292px;
 }
 .image-container {
@@ -143,11 +149,10 @@ opacity: 0.8;
     border-radius: 15px;
     margin-top: 0; */
 }
-
 @media screen and (min-width: 768px) {
     .activities{
         min-width: 768px;
-        padding: 0 32px;
+        padding: 0 20px;
     }
     .activity{
         padding: 90px 32px;
@@ -155,25 +160,30 @@ opacity: 0.8;
         gap: 0 32px;
         flex-wrap: wrap;
     }
-    .li-one{
+    .activ{
         flex-basis: calc((100% - 32px) / 2);
     }
-    .activities .activity:nth-last-child(1) {
+    .activity .activ:nth-child(1) {
         margin-bottom: 44px;
     }
-    .activities .activity:nth-last-child(2) {
+    .activity .activ:nth-child(2) {
         margin-bottom: 59px;
     }
     .title{
         font-size: 13px;
         line-height: 1.15;
     }
-    .li-one:nth-last-of-type(2) .title{
+    .activ:nth-last-of-type(2) .title{
         min-width: 216px;
     }
     .img-tach{
         width: 100%;
     }
+    .image-container .img-tach{
+        content: url(../img/img-advantages/s5-tab.jpg);
+        height: 534px;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-tab@2x.jpg'); } }
 }
 @media screen and (min-width: 1280px) {
     .activities {
@@ -183,7 +193,7 @@ opacity: 0.8;
     .content-container .activities{
         display: flex;
         flex-direction: row;
-        gap: 32px;
+        gap: 0 32px;
     }
     .activity{
         padding: 90px 50px;
@@ -206,4 +216,19 @@ opacity: 0.8;
     .img-tach{
         width: 432px;
     }
+    .image-container .img-tach{
+        content: url(../img/img-advantages/s5-desk1280.jpg);
+        height: 534px;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-desk1280@2x.jpg'); } }
+}
+@media screen and (min-width: 1440px) { 
+    .activities{
+        max-width: 1440px;
+    }
+    .image-container .img-tach{
+        content: url(../img/img-advantages/s5-desk1440.jpg);
+        height: 534px;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-desk1440@2x.jpg'); } }
 }
