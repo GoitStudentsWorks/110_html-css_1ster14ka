@@ -8,7 +8,7 @@
   margin: 0 auto;
   position: relative;
   width: 100%;
-  background-image: url(../img/img-hero/img-hero-desk1440.jpg);
+  background-image: url(/img/img-hero/img-hero-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,7 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .hero-image {
-    background-image: url(../img/img-hero/img-hero-desk1440@2x.jpg);
+    background-image: url(/img/img-hero/img-hero-mob@2x.jpg);
   }
 }
 .container-hero-image {
@@ -103,13 +103,13 @@
     height: 962px;
     padding-top: 280px;
     padding-bottom: 282px;
-    background-image: url(../img/img-hero/img-hero-desk1440.jpg);
+    background-image: url(/img/img-hero/img-hero-tab.jpg);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .hero-image {
-      background-image: url(../img/img-hero/img-hero-desk1440@2x.jpg);
+      background-image: url(/img/img-hero/img-hero-tab@2x.jpg);
     }
   }
   .container-hero-image {
@@ -142,13 +142,13 @@
     height: 800px;
     padding-top: 235px;
     padding-bottom: 215px;
-    background-image: url(../img/img-hero/img-hero-desk1440.jpg);
+    background-image: url(/img/img-hero/img-hero-desk1280.jpg);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .hero-image {
-      background-image: url(../img/img-hero/img-hero-desk1440@2x.jpg);
+      background-image: url(/img/img-hero/img-hero-desk1280@2x.jpg);
     }
   }
   .hero-titel-team {
@@ -163,13 +163,13 @@
 @media screen and (min-width: 1440px) {
   .hero-image {
     max-width: 1440px;
-    background-image: url(../img/img-hero/img-hero-desk1440.jpg);
+    background-image: url(/img/img-hero/img-hero-desk1440.jpg);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .hero-image {
-      background-image: url(../img/img-hero/img-hero-desk1440@2x.jpg);
+      background-image: url(/img/img-hero/img-hero-desk1440@2x.jpg);
     }
   }
 }
