@@ -181,7 +181,7 @@ opacity: 0.8;
     }
     .image-container .img-tach{
         content: url(../img/img-advantages/s5-tab.jpg);
-        height: 534px;
+        height: 424px;
     }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-tab@2x.jpg'); } }
 }
@@ -218,7 +218,7 @@ opacity: 0.8;
     }
     .image-container .img-tach{
         content: url(../img/img-advantages/s5-desk1280.jpg);
-        height: 534px;
+        height: 424px;
     }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-desk1280@2x.jpg'); } }
 }
@@ -228,7 +228,7 @@ opacity: 0.8;
     }
     .image-container .img-tach{
         content: url(../img/img-advantages/s5-desk1440.jpg);
-        height: 534px;
+        height: 424px;
     }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { .image-container .img-tach { content: url('../img/img-advantages/s5-desk1440@2x.jpg'); } }
 }
