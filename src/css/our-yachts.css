@@ -1,3 +1,7 @@
+.yachts-section {
+  display: flex;
+  justify-content: center;
+}
 .title-yachts {
   color: #fbfbfb;
   text-align: center;
