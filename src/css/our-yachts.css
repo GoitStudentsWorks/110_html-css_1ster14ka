@@ -1,6 +1,7 @@
 .yachts-section {
   display: flex;
   justify-content: center;
+  margin: 80px 0;
 }
 .title-yachts {
   color: #fbfbfb;
@@ -14,7 +15,6 @@
   margin-bottom: 40px;
 }
 .yachts-list-item {
-  min-width: 335px;
   border-radius: 24px;
   padding: 16px;
   background-color: #fbfbfb;
@@ -102,6 +102,10 @@
 }
 
 @media (min-width: 768px) {
+  .yachts-section {
+    margin: 150px 0;
+  }
+
   .yachts-list-item:nth-child(2),
   .yachts-list-item:nth-last-child(2) {
     display: block;
