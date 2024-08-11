@@ -1,9 +1,13 @@
+.yachts-section {
+  display: flex;
+  justify-content: center;
+}
 .title-yachts {
   color: #fbfbfb;
   text-align: center;
   margin: 0 auto 40px;
   max-width: 319px;
-  width: 100%;
+  width: 319px;
   font-size: 28px;
 }
 
@@ -11,7 +15,7 @@
   margin-bottom: 40px;
 }
 .yachts-list-item {
-  min-width: 280px;
+  min-width: 335px;
   border-radius: 24px;
   padding: 16px;
   background-color: #fbfbfb;
@@ -110,7 +114,7 @@
   }
 
   .yachts-list-item {
-    max-width: 336px;
+    min-width: 336px;
     width: 100%;
   }
 
@@ -125,8 +129,7 @@
   }
 
   .yachts-card-class {
-    color: rgba(4, 3, 6, 0.4);
-    font-weight: 400;
+    color: #040306;
     font-size: 13px;
     line-height: 1.18;
     letter-spacing: -0.03em;
@@ -155,7 +158,7 @@
   }
 
   .yachts-list-tem {
-    max-width: 377px;
+    min-width: 377px;
   }
 
   .yachts-card-name {
@@ -170,6 +173,6 @@
   }
 
   .yachts-list-item {
-    max-width: 392px;
+    min-width: 392px;
   }
 }
