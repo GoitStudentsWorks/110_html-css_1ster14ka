@@ -182,7 +182,7 @@
 
   .wrapp-rent-img .rent-img {
     content: url(/img/img-rent-a-yacht/s6-desk1280.jpg);
-    /* height: 536px; */
+    height: 536px;
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
