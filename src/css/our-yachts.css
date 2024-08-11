@@ -7,7 +7,6 @@
   text-align: center;
   margin: 0 auto 40px;
   max-width: 319px;
-  width: 319px;
   font-size: 28px;
 }
 
@@ -85,6 +84,11 @@
   line-height: 1.22;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+}
+
+.yachts-btn:hover,
+.yachts-btn:focus {
+  color: #1b414b;
 }
 
 .action-btn {
