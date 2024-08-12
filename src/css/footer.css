@@ -87,6 +87,21 @@
   color: rgba(251, 251, 251, 0.4);
 }
 
+@media screen and (max-width: 375px) {
+  .wrapp-logo-nav {
+    display: block;
+  }
+  .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .nav-list {
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container-footer {
     padding: 0 16px;
